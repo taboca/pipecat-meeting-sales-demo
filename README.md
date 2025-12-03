@@ -1,6 +1,6 @@
-# Pipecat Daily Bot Frontend
+# Pipecat Meeting Sales Demo
 
-Demo of a voice assistant bot that joins a Daily.co room using the simple Pipecat flow. This frontend is a static Daily UI served by a tiny Express server; it fetches `roomUrl`/`joinToken` from `config.json` and pairs with the Pipecat quickstart backend. For the full upstream quickstart (RTVI/local WebRTC server, multiple transports), see https://github.com/pipecat-ai/pipecat-quickstart.
+Demo of a meeting-room canvas that welcomes a virtual sales agent voice bot into a Daily.co call using the simple Pipecat flow. This frontend is a static Daily UI served by a tiny Express server; it fetches `roomUrl`/`joinToken` from `config.json` and pairs with the Pipecat quickstart backend. For the full upstream quickstart (RTVI/local WebRTC server, multiple transports), see https://github.com/pipecat-ai/pipecat-quickstart.
 
 The focus here is the simplest path: a bot entering a specific Daily room with OpenAI STT/LLM/TTS via `bot_simple.py`. Use this when you just need the bot to join a static Daily room. If you need the richer quickstart (token minting, local WebRTC dev server, more transports), follow the repo above.
 
