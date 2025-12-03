@@ -1,0 +1,6 @@
+{
+  "OPENAI_API_KEY": "your-openai-api-key",
+  "DAILY_API_KEY": "your-daily-api-key-if-minting-tokens",
+  "ROOM_URL": "https://your-domain.daily.co/room",
+  "DAILY_TOKEN": "optional-meeting-token-if-you-have-one"
+}
