@@ -4,6 +4,8 @@ Demo of a voice assistant bot that joins a Daily.co room using the simple Pipeca
 
 The focus here is the simplest path: a bot entering a specific Daily room with OpenAI STT/LLM/TTS via `bot_simple.py`. Use this when you just need the bot to join a static Daily room. If you need the richer quickstart (token minting, local WebRTC dev server, more transports), follow the repo above.
 
+This repo is intended to sit alongside the sibling backend at https://github.com/taboca/pipecat-quickstart (a fork of the upstream). Run that backend to handle STT/LLM/TTS and bot orchestration; point this frontend at the same Daily room.
+
 ## Setup
 - Copy `config_SAMPLE.json` to `config.json` and fill in your values: `ROOM_URL`, optionally `DAILY_TOKEN`, and any keys your backend expects.
 - Install deps and start the server: `npm install && node index.js`.
